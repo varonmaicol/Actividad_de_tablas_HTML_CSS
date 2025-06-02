@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de Tablas HTML</title>
+    <link rel="stylesheet" href="./_css/Estilo.css">
+</head>
+<body>
+    <h1>Ejercicio de Tablas HTML</h1>
+    <p>Este documento muestra diferentes tipos de tablas aplicadas al contexto educativo y tecnológico.</p>
+
+    <section class="basica">
+        <h2>1. Tabla básica</h2>
+        <p>Lista de cursos disponibles en línea.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Curso</th>
+                    <th>Duración</th>
+                    <th>Nivel</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML y CSS</td>
+                    <td>4 semanas</td>
+                    <td>Básico</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>6 semanas</td>
+                    <td>Intermedio</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="bordes-colapsados">
+        <h2>2. Bordes colapsados</h2>
+        <p>Horario de atención al estudiante.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Horario</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>10:00 - 14:00</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>12:00 - 16:00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="colores-filas">
+        <h2>3. Filas alternas con colores</h2>
+        <p>Tabla de países con tecnología destacada.</p>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>País</th>
+                    <th>Innovación</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Estados Unidos</td>
+                    <td>IA y Software</td>
+                </tr>
+                <tr>
+                    <td>Japón</td>
+                    <td>Robótica</td>
+                </tr>
+                <tr>
+                    <td>Corea del Sur</td>
+                    <td>Electrónica</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="hover-efecto">
+        <h2>4. Efecto hover</h2>
+        <p>Lenguajes de programación populares.</p>
+        <table border="1">
+            <tr>
+                <th>Lenguaje</th>
+                <th>Uso principal</th>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Ciencia de datos</td>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>Aplicaciones empresariales</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="padding-personalizado">
+        <h2>5. Padding personalizado</h2>
+        <p>Recursos educativos disponibles.</p>
+        <table border="1">
+            <tr>
+                <th>Recurso</th>
+                <th>Descripción</th>
+            </tr>
+            <tr>
+                <td>Coursera</td>
+                <td>Plataforma con cursos certificados</td>
+            </tr>
+            <tr>
+                <td>edX</td>
+                <td>Educación en línea de universidades</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="alineacion">
+        <h2>6. Alineación de texto</h2>
+        <p>Estadísticas de estudiantes registrados.</p>
+        <table border="1">
+            <tr>
+                <th>País</th>
+                <th>Estudiantes</th>
+            </tr>
+            <tr>
+                <td>Colombia</td>
+                <td>1500</td>
+            </tr>
+            <tr>
+                <td>Perú</td>
+                <td>1200</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="combinada">
+        <h2>7. Celdas combinadas</h2>
+        <p>Información de instructores.</p>
+        <table>
+            <tr>
+                <th colspan="2">Nombre del Instructor</th>
+                <th>Cursos</th>
+            </tr>
+            <tr>
+                <td>Sofía</td>
+                <td>Martínez</td>
+                <td rowspan="2">3</td>
+            </tr>
+            <tr>
+                <td>Andrés</td>
+                <td>López</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="titulo">
+        <h2>8. Título de tabla</h2>
+        <p>Tabla con caption de libros recomendados.</p>
+        <table border="1">
+            <caption>Lecturas recomendadas para programación</caption>
+            <tr>
+                <th>Título</th>
+                <th>Autor</th>
+            </tr>
+            <tr>
+                <td>Clean Code</td>
+                <td>Robert C. Martin</td>
+            </tr>
+            <tr>
+                <td>El Programador Pragmático</td>
+                <td>Andrew Hunt</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="ancho-columna">
+        <h2>9. Ancho de columnas</h2>
+        <p>Descripción y precio de licencias de software.</p>
+        <table border="1">
+            <tr>
+                <th>Software</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>Adobe Creative Cloud para estudiantes y docentes</td>
+                <td>$19.99/mes</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>10. Tabla completa</h2>
+        <p>Datos completos de proyectos estudiantiles.</p>
+        <table class="completa">
+            <caption>Proyectos destacados</caption>
+            <thead>
+                <tr>
+                    <th>Proyecto</th>
+                    <th>Área</th>
+                    <th>Calificación</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sistema de reservas</td>
+                    <td>Desarrollo Web</td>
+                    <td>9.5</td>
+                </tr>
+                <tr>
+                    <td>App de recetas</td>
+                    <td>Móvil</td>
+                    <td>8.8</td>
+                </tr>
+                <tr>
+                    <td>Simulador de red</td>
+                    <td rowspan="2">Redes</td>
+                    <td>9.0</td>
+                </tr>
+                <tr>
+                    <td>Monitor de tráfico</td>
+                    <td>8.7</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>

@@ -1,0 +1,125 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #eef2f3, #d9e2ec);
+    color: #222;
+}
+
+h1 {
+    color: #0d47a1;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #1a237e;
+    margin-top: 0;
+}
+
+section {
+    background: #ffffff;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: scale(1.01);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    transition: background-color 0.3s ease;
+}
+
+th {
+    background-color: #1976d2;
+    color: #fff;
+}
+
+td {
+    background-color: #fafafa;
+}
+
+.basica table, .basica th, .basica td {
+    border: 1px solid #555;
+}
+
+.bordes-colapsados table {
+    border-collapse: collapse;
+}
+
+.bordes-colapsados th, .bordes-colapsados td {
+    border: 2px solid #90caf9;
+}
+
+.colores-filas tr:nth-child(even) {
+    background-color: #e3f2fd;
+}
+
+.hover-efecto tr:hover {
+    background-color: #c5cae9;
+    cursor: pointer;
+}
+
+.padding-personalizado td {
+    padding: 20px 40px;
+    background-color: #f0f4c3;
+}
+
+.alineacion th {
+    text-align: center;
+    background-color: #3949ab;
+}
+
+.alineacion td {
+    text-align: right;
+    background-color: #e8eaf6;
+}
+
+.combinada th, .combinada td {
+    border: 1px solid #999;
+}
+
+.titulo table caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.ancho-columna th:nth-child(1),
+.ancho-columna td:nth-child(1) {
+    width: 70%;
+}
+
+
+.completa th, .completa td {
+    border: 1px solid #bc5f5f;
+    padding: 12px;
+    text-align: left;
+}
+
+.completa th {
+    background-color: #0077ffdc;
+    color: rgb(241, 235, 235);
+}
+
+.completa tr:nth-child(even) {
+    background-color: #dc1515;
+}
+
+.completa tr:hover {
+    background-color: #dc1515;
+}
